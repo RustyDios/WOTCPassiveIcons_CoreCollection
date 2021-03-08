@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>172857b4-e92c-415f-80ee-27d7a4825bd2</Guid>
+    <Name>WOTCPassiveIcons_CC</Name>
+    <Description>A clone of my Passive Icons mod with all config options removed for Iridars Core Collection</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>WOTCPassiveIcons_CC</AssemblyName>
+    <RootNamespace>WOTCPassiveIcons_CC</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\WOTCPassiveIcons_CC\" />
+    <Folder Include="Src\WOTCPassiveIcons_CC\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ReadMe.txt" />
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Src\WOTCPassiveIcons_CC\Classes\X2Ability_RustyAddedPassives_CC.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCPassiveIcons_CC\Classes\X2DownloadableContentInfo_WOTCPassiveIcons_CC.uc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>
